@@ -1,0 +1,10 @@
+.portfolio {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+}
+@media (max-width: 768px) {
+  .portfolio {
+    grid-template-columns: auto;
+  }
+}

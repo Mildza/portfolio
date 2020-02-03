@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  background-color: #fff;
+  color: #000;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(157, 158, 152);
+  justify-content: center;
+  margin-bottom: -2px;
+}
+
+.experiance {
+  justify-content: start;
+}
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+.left-column {
+  width: 65%;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+.right-column {
+  width: 35%;
+}
+
+.header {
+  padding: 40px;
+  border: 2px solid rgb(157, 158, 152);
+  border-bottom: 0px;
+}
+
+.js,
+.angular,
+.typescript,
+.angular-projects {
+  border: 2px solid rgb(157, 158, 152);
+}
+
+.angular {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.projects p,
+span {
+  padding-bottom: 10px;
+}
+.typescript p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.js p:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.js {
+  border-bottom: 0px;
+}
+
+.angular-projects {
+  border-bottom: 0px;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  line-height: 47px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.header h3 {
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+h3 {
+  padding: 5px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+a,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h4 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.angular h4,
+.js {
+  padding-bottom: 5px;
+}
+
+p {
+  padding: 0 20px;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.subtext {
+  padding-top: 5px;
+}
+
+.subtext span {
+  padding-left: 20px;
+}
+
+.subtext p {
+  margin-bottom: 0px;
+}
+
+.projects {
+  padding-top: 10px;
+}
+
+.projects a {
+  text-decoration: underline;
+  color: rgb(58, 43, 133);
+}
+
+
+.fab {
+  margin: 20px 0px;
+  color: white;
+  background-color: rgb(125, 126, 123);
+}
+
+.width {
+  width: 70px;
+}
+
+.margins {
+  margin-bottom: 0px;
+}
+.light {
+  color: rgb(157, 158, 152);
+}
+
+.light-text {
+  color: rgb(141, 141, 141);
+  font-size: 0.8em;
+}
+.dark-text {
+  color: rgb(85, 84, 84);
+  font-weight: bold;
+}
+.helper {
+  margin-bottom: -7px;
+}
+
+.page-break {
+  page-break-after: always;
+}
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.normal {
+  font-weight: normal;
+}
+
+.hobbie {
+  border: 2px solid rgb(157, 158, 152);
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: black;
+  }
+  .no-print {
+    display: none !important;
+  }
+  @page {
+    margin-top: 2.1cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+  }
+}
