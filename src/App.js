@@ -3,11 +3,10 @@ import { Router, Route } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 import Header from "./components/header/Header";
-
+import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Blog from "./pages/blog/Blog";
-import Contact from "./pages/contact/Contact";
 import Cv from "./pages/cv/Cv";
 
 import "./App.scss";
@@ -20,7 +19,7 @@ export default function App() {
   return (
     <div className="App">
       <Router history={history}>
-        <Header />
+        <Header history={history} />
         <Route path="/home">
           <Home />
         </Route>
@@ -30,12 +29,13 @@ export default function App() {
         <Route path="/blog">
           <Blog />
         </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
         <Route path="/cv">
           <Cv />
         </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Footer />
       </Router>
     </div>
   );

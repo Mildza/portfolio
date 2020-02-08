@@ -18,50 +18,60 @@ const JobsModal = ({ open, handleModal, project }) => {
   return (
     <>
       {open && (
-        <div id="dialog" className="cover" onClick={handleModal}>
-          <div
-            className="modal-dialog"
-            role="document"
-            onClick={handleChildClick}
-          >
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title">{project.name}</h5>
+        <div className="cover" onClick={handleModal}>
+          <div className="dz-dialog" onClick={handleChildClick}>
+            <div className="dz-content">
+              <div className="dz-header">
+                <h2>{project.name}</h2>
                 <button
                   type="button"
-                  className="close"
+                  className="dz-close"
                   onClick={handleModal}
                   aria-label="Close"
                 >
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <div className="modal-body">
+              <div className="dz-body">
                 <img
                   src={imagePath + picture + ".jpg"}
                   alt=""
                   onClick={clickPicture}
                 />
               </div>
-              <div className="footer">
+              <div className="dz-footer">
                 <p>{project.description}</p>
                 <div>
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button type="button" className="btn btn-success">
-                      Visit Site
-                    </button>
-                  </a>
-                  <button
-                    type="button"
-                    className="btn btn-danger"
-                    onClick={handleModal}
-                  >
-                    Close
-                  </button>
+                  <div className="btn-container">
+                    <div>
+                      <a
+                        className="button green"
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Visit Site
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href={project.github}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <img
+                          className="github"
+                          src={imagePath + "github.png"}
+                          alt={project.name}
+                        />
+                      </a>
+                    </div>
+                    <div>
+                      <button className="button red" onClick={handleModal}>
+                        Close
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

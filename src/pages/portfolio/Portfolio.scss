@@ -1,10 +1,36 @@
+@import "../../shared/global";
 .portfolio {
+  h2 {
+    text-align: center;
+    color: $golden;
+    font-size: 2em;
+  }
+  > h3 {
+    color: $golden;
+    text-align: center;
+    margin: 30px;
+    font-size: 1.4em;
+  }
+}
+
+.portfolio-grid {
+  width: 80%;
   display: grid;
-  justify-content: center;
+  margin: 0 auto;
   grid-template-columns: auto auto;
 }
-@media (max-width: 768px) {
-  .portfolio {
+
+@media (max-width: 1156px) {
+  .portfolio-grid {
+    width: 95%;
     grid-template-columns: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio-grid {
+    width: 95%;
+    grid-template-columns: auto;
+    margin: 0 auto;
   }
 }

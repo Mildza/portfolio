@@ -7,7 +7,9 @@
     background-color: #333;
     text-align: center;
 
-    a {
+    a,
+    button {
+      font-family: inherit;
       display: inline-block;
       color: $golden;
       text-align: center;
@@ -16,9 +18,14 @@
       font-size: 1.5em;
       font-weight: 600;
       min-width: 150px;
+      background-color: #333;
+      border: none;
+      outline: none;
+      cursor: pointer;
     }
 
-    a:hover {
+    a:hover,
+    button:hover {
       background-color: $black;
       color: $golden;
     }
@@ -45,11 +52,20 @@
 }
 
 @media screen and (max-width: 796px) {
-  .topnav a.links {
-    display: block;
-    float: left;
-    min-width: 110px;
-    font-size: 1.3em;
+  .headers {
+    margin-bottom: 20px;
+
+    .topnav {
+      a.links {
+        display: block;
+        float: left;
+        min-width: 110px;
+        font-size: 1.3em;
+      }
+      button {
+        font-size: 1.3em;
+      }
+    }
   }
 
   .topnav a.links:not(:first-child) {
@@ -96,5 +112,11 @@
     display: block;
     text-align: left;
     padding-left: 15px;
+  }
+}
+
+@media print {
+  .headers {
+    display: none !important;
   }
 }

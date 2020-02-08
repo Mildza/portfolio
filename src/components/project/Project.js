@@ -24,7 +24,7 @@ const Project = props => {
   return (
     <>
       <div className="project">
-        <h5>{name}</h5>
+        <h3>{name}</h3>
         <img
           src={imagePath + hover + ".jpg"}
           alt="name"

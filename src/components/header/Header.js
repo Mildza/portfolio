@@ -1,11 +1,25 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 
 import "./Header.scss";
 
-const Header = () => {
+const Header = props => {
   const [toggle, setToggle] = useState(false);
+  const [toPrint, setToprint] = useState(false);
 
+  let location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/cv") {
+      setToprint(true);
+    } else {
+      setToprint(false);
+    }
+  }, [location]);
+
+  const printPage = () => {
+    window.print();
+  };
   const toggleClass = () => {
     setToggle(!toggle);
   };
@@ -24,13 +38,10 @@ const Header = () => {
           Blog
         </NavLink>
 
-        <NavLink className="links" to="/contact">
-          Contact
-        </NavLink>
-
         <NavLink className="links" to="/cv">
           CV
         </NavLink>
+        {toPrint && <button onClick={printPage}>Print</button>}
 
         <div className="burger" onClick={toggleClass}>
           <div className={`bar1 ${toggle && "change"}`}></div>

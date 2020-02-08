@@ -1,0 +1,63 @@
+@import "../../shared/global";
+
+.blog {
+  color: $golden;
+  width: 60%;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  .blog-body {
+    margin-top: 20px;
+    color: $black;
+    background-color: $dirty;
+    border-radius: 10px;
+    padding: 20px 40px;
+    cursor: pointer;
+    text-align: justify;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    .dots {
+      font-size: 2em;
+    }
+
+    .show {
+      display: block;
+    }
+    .hide {
+      display: none;
+    }
+  }
+}
+.indent {
+  text-indent: 15px;
+}
+kbd {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1;
+
+  padding: 5px 8px;
+  text-align: center;
+}
+
+@media screen and (max-width: 796px) {
+  .blog {
+    width: 95%;
+    .blog-body {
+      padding: 10px 15px;
+      h2 {
+        text-align: center;
+        font-size: 1.2em;
+      }
+    }
+  }
+}

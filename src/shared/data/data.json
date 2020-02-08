@@ -2,70 +2,72 @@
   {
     "id": 1,
     "name": "Happy Star Hostel",
-    "description": "Full Stack - Agular + Node.js. Booking site for a hostel.",
+    "description": "Full Stack - Angular + Node.js + MongoDB. Booking site for a hostel.",
     "picture": "happystar",
-    "url": "http://happystar.herokuapp.com/"
+    "url": "http://happystar.herokuapp.com/",
+    "github": ""
   },
   {
     "id": 2,
     "name": "Generali",
-    "description": "Full Stack - Agular + Node.js. Insurance application.",
+    "description": "Full Stack - Angular + Node.js + MongoDB. Insurance application.",
     "picture": "generali",
     "url": "https://heroku-generali.herokuapp.com/"
   },
   {
     "id": 3,
     "name": "Junior GitHub Jobs",
-    "description": "Full Stack - React + Node.js. ",
+    "description": "Full Stack - React + Node.js. On backend fetch the data from github jobs, filter it and give it back to frontend. IMPORTANT: on heroku app get a sleep so need to refresh and wait.",
     "picture": "github",
-    "url": "https://junior-github-jobs.herokuapp.com/"
+    "url": "https://junior-github-jobs.herokuapp.com/",
+    "github": "https://github.com/Mildza/react-forms-validation"
   },
   {
     "id": 4,
     "name": "Personal Movie Database",
-    "description": "",
+    "description": "Full Stack - Angular + Node.js + MongoDB. Adding, updating and removing movies.",
     "picture": "movies",
     "url": "http://mildza-movies.herokuapp.com/"
   },
   {
     "id": 5,
-    "name": "Vue Feutures",
-    "description": "",
+    "name": "Vue Features",
+    "description": "Main Vue concepts and feature.",
     "picture": "vue",
-    "url": "http://mildza-movies.herokuapp.com/"
+    "url": "http://frontend.milton-soft.com/"
   },
   {
     "id": 6,
     "name": "React Forms",
-    "description": "",
+    "description": "React - Hooks. Validation,custom Input, Button and Hook, Same form for login and register. ",
     "picture": "form",
     "url": "http://frontend.milton-soft.com/react/forms/"
   },
   {
     "id": 7,
     "name": "Game",
-    "description": "",
+    "description": "Angular game, find the randomly word using keyboard or mouse clicks.",
     "picture": "game",
     "url": "http://angular.milton-soft.com/gameland/"
   },
   {
     "id": 8,
     "name": "Angular comunication",
-    "description": "",
+    "description": "Angular. Input, Output, Set-Get, NgOnChanges, Optional route parameters, queryParams, queryParamsHandling, custom filtering and Services.",
     "picture": "comunication",
     "url": "http://angular.milton-soft.com/comunication/"
   },
   {
     "id": 9,
     "name": "RXJS",
-    "description": "",
+    "description": "Angular. Subject, Behaviour Subject, ReplaySubject, AsyncSubject, Creation Operators, Transformation Operators and Combination Operators.",
     "picture": "vue",
     "url": "http://angular.milton-soft.com/observable/"
   },
   {
     "id": 10,
     "name": "Zoom",
-    "description": "",
+    "description": "Making custom Zoom directive in Angular using HostListener, Renderer2, HostBinding, Input, BehaviorSubject.",
     "picture": "zoom",
     "url": "http://angular.milton-soft.com/zoom/"
   }
