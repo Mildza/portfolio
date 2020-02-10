@@ -1,6 +1,6 @@
 import React from "react";
 
-import data from "../../shared/data/data.json";
+import projectData from "../../shared/data/projectData.json";
 import Project from "../../components/project/Project";
 import "./Portfolio.scss";
 
@@ -9,7 +9,7 @@ export default function Portfolio() {
     <div className="portfolio">
       <h2>Some projects ...</h2>
       <div className="portfolio-grid">
-        {data.map(project => (
+        {projectData.map(project => (
           <div className="col" key={project.id}>
             <Project project={project} />
           </div>

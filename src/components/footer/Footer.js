@@ -22,17 +22,29 @@ export default function Footer() {
         </a>
       </div>
       <div>
-        <a href="https://github.com/Mildza">
+        <a
+          href="https://github.com/Mildza"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={IMAGE_PATH + "github2.png"} alt="Milan Vukovic" />
         </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/milan-vukovic-7ab84a70/">
+        <a
+          href="https://www.linkedin.com/in/milan-vukovic-7ab84a70/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={IMAGE_PATH + "linkedin.png"} alt="Milan Vukovic" />
         </a>
       </div>
       <div>
-        <a href="https://www.facebook.com/mildzan/">
+        <a
+          href="https://www.facebook.com/mildzan/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src={IMAGE_PATH + "facebook.png"}
             alt="Posetite nas na facebook-u"

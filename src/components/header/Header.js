@@ -3,7 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 
 import "./Header.scss";
 
-const Header = props => {
+const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [toPrint, setToprint] = useState(false);
 

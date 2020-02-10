@@ -61,7 +61,7 @@
     "id": 9,
     "name": "RXJS",
     "description": "Angular. Subject, Behaviour Subject, ReplaySubject, AsyncSubject, Creation Operators, Transformation Operators and Combination Operators.",
-    "picture": "vue",
+    "picture": "rxjs",
     "url": "http://angular.milton-soft.com/observable/"
   },
   {
