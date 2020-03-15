@@ -1,21 +1,38 @@
 [
   {
     "id": 1,
+    "name": "Web Shop",
+    "description": "Full Stack - React + Firebase. Shoping model.",
+    "picture": "shop",
+    "url": "http://frontend.milton-soft.com/react/shop/",
+    "github": "https://github.com/Mildza/shop"
+  },
+  {
+    "id": 2,
+    "name": "Weather App",
+    "description": "Full Stack - React + Node.js. Yahoo Weather Challenge. ",
+    "picture": "weather",
+    "url": "http://weather-nis.herokuapp.com/",
+    "github": "https://github.com/Mildza/Weather-Forecast"
+  },
+  {
+    "id": 3,
     "name": "Happy Star Hostel",
     "description": "Full Stack - Angular + Node.js + MongoDB. Booking site for a hostel.",
     "picture": "happystar",
     "url": "http://happystar.herokuapp.com/",
-    "github": ""
+    "github": "https://github.com/Mildza/hostel"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Generali",
     "description": "Full Stack - Angular + Node.js + MongoDB. Insurance application.",
     "picture": "generali",
-    "url": "https://heroku-generali.herokuapp.com/"
+    "url": "https://heroku-generali.herokuapp.com/",
+    "github": "https://github.com/Mildza/generali"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Junior GitHub Jobs",
     "description": "Full Stack - React + Node.js. On backend fetch the data from github jobs, filter it and give it back to frontend. IMPORTANT: on heroku app get a sleep so need to refresh and wait.",
     "picture": "github",
@@ -23,52 +40,59 @@
     "github": "https://github.com/Mildza/react-forms-validation"
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Personal Movie Database",
     "description": "Full Stack - Angular + Node.js + MongoDB. Adding, updating and removing movies.",
     "picture": "movies",
-    "url": "http://mildza-movies.herokuapp.com/"
-  },
-  {
-    "id": 5,
-    "name": "Vue Features",
-    "description": "Main Vue concepts and feature.",
-    "picture": "vue",
-    "url": "http://frontend.milton-soft.com/"
-  },
-  {
-    "id": 6,
-    "name": "React Forms",
-    "description": "React - Hooks. Validation,custom Input, Button and Hook, Same form for login and register. ",
-    "picture": "form",
-    "url": "http://frontend.milton-soft.com/react/forms/"
+    "url": "http://mildza-movies.herokuapp.com/",
+    "github": "https://github.com/Mildza/moviesDB"
   },
   {
     "id": 7,
-    "name": "Game",
-    "description": "Angular game, find the randomly word using keyboard or mouse clicks.",
-    "picture": "game",
-    "url": "http://angular.milton-soft.com/gameland/"
+    "name": "Vue Features",
+    "description": "Main Vue concepts and feature.",
+    "picture": "vue",
+    "url": "http://frontend.milton-soft.com/",
+    "github": "https://github.com/Mildza/Vue.js"
   },
   {
     "id": 8,
-    "name": "Angular comunication",
-    "description": "Angular. Input, Output, Set-Get, NgOnChanges, Optional route parameters, queryParams, queryParamsHandling, custom filtering and Services.",
-    "picture": "comunication",
-    "url": "http://angular.milton-soft.com/comunication/"
+    "name": "React Forms",
+    "description": "React - Hooks. Validation,custom Input, Button and Hook, Same form for login and register. ",
+    "picture": "form",
+    "url": "http://frontend.milton-soft.com/react/forms/",
+    "github": "https://github.com/Mildza/react-forms-validation"
   },
   {
     "id": 9,
-    "name": "RXJS",
-    "description": "Angular. Subject, Behaviour Subject, ReplaySubject, AsyncSubject, Creation Operators, Transformation Operators and Combination Operators.",
-    "picture": "rxjs",
-    "url": "http://angular.milton-soft.com/observable/"
+    "name": "Game",
+    "description": "Angular game, find the randomly word using keyboard or mouse clicks.",
+    "picture": "game",
+    "url": "http://angular.milton-soft.com/gameland/",
+    "github": "https://github.com/Mildza/games"
   },
   {
     "id": 10,
+    "name": "Angular comunication",
+    "description": "Angular. Input, Output, Set-Get, NgOnChanges, Optional route parameters, queryParams, queryParamsHandling, custom filtering and Services.",
+    "picture": "comunication",
+    "url": "http://angular.milton-soft.com/comunication/",
+    "github": "https://github.com/Mildza/Component-Comunication"
+  },
+  {
+    "id": 11,
+    "name": "RXJS",
+    "description": "Angular. Subject, Behaviour Subject, ReplaySubject, AsyncSubject, Creation Operators, Transformation Operators and Combination Operators.",
+    "picture": "rxjs",
+    "url": "http://angular.milton-soft.com/observable/",
+    "github": "https://github.com/Mildza/RxJS"
+  },
+  {
+    "id": 12,
     "name": "Zoom",
     "description": "Making custom Zoom directive in Angular using HostListener, Renderer2, HostBinding, Input, BehaviorSubject.",
     "picture": "zoom",
-    "url": "http://angular.milton-soft.com/zoom/"
+    "url": "http://angular.milton-soft.com/zoom/",
+    "github": "https://github.com/Mildza/Zoom-Directive---Angular"
   }
 ]

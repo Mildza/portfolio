@@ -40,12 +40,12 @@ export default function Cv() {
                 Mongoose, WebSocket and Passport.
               </p>
               <p>
-                These days my focus is on Vue.js and React. Familiar with Web
-                Components, Jest, Jamsine, GraphQL and SQL.
+                These days my focus is on React and Vue. Familiar with Web
+                Components, Jest, Firebase, GraphQL and SQL.
               </p>
               <p>
-                Very strong knowledge of HTML, CSS, JavaScript, Angular and
-                TypeScript.
+                Very strong knowledge of HTML, CSS, JavaScript, React, Angular,
+                Vue and TypeScript.
               </p>
               <p>
                 Made some sites from scratch, frontend and backend. Understand
@@ -163,6 +163,20 @@ export default function Cv() {
 
       <div className="projects">
         <h4>Projects</h4>
+        <div className="single-project">
+          <h5>
+            Shop -<a href="http://frontend.milton-soft.com/react/shop/">live</a>
+          </h5>
+          <p>React, React Hooks, Firebase.</p>
+          <p>Description: Shop model.</p>
+        </div>
+        <div className="single-project">
+          <h5>
+            Weather App -<a href="http://weather-nis.herokuapp.com/">live</a>
+          </h5>
+          <p>React, React Hooks, Node.js.</p>
+          <p>Description: Yahoo Weather App.</p>
+        </div>
         <div className="single-project">
           <h5>
             Aplication for Generali insurance -

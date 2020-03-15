@@ -1,21 +1,28 @@
 [
   {
-    "type": "text",
+    "type": "code",
     "id": "one",
-    "title": "useCallback vs useMemo",
-    "content": "useCallback caches the provided function instance, useMemo invokes the provided function and caches its result.",
-    "picture": "react.png"
+    "title": "Closure",
+    "content": "Closures are created every time a function is created, at function creation time. A closure gives access to an outer function’s scope from an inner function. Nested functions have access to variables declared in their outer scope. We have possibility to emulate private methods using closures. For every closure we have three scopes: Local Scope (Own scope), Outer Functions Scope and Global Scope.",
+    "picture": "js.png"
   },
   {
     "type": "text",
     "id": "two",
+    "title": "useCallback vs useMemo",
+    "content": " useCallback and useMemo both expect a function and an array of dependencies. The difference is that useCallback returns its function when the dependencies change while useMemo calls its function and returns the result.useCallback returns its function uncalled so you can call it later, while useMemo calls its function and returns the result. usMemo only does a shallow comparison of props and prop’s objects.Shallow compare does check for equality. When comparing scalar values (numbers, strings) it compares their values. When comparing objects, it does not compare their's attributes - only their references are compared (do they point to same object).",
+    "picture": "react.png"
+  },
+  {
+    "type": "text",
+    "id": "three",
     "title": "What is Variable Shadowing in JavaScript?",
     "content": " If we declare a variable within a certain scope (decision block, function, or inner class) and it has the same name as a variable declared in an outer scope, it's totally fine. They can exist both with no throwing errors. This is called variable shadowing.",
     "picture": "js.png"
   },
   {
     "type": "code",
-    "id": "three",
+    "id": "four",
     "title": "Visual Studio Code shortcuts",
     "content": "<p><kbd>alt</kbd> + <kbd> &#x2191;</kbd> Move Line Up</p><p><kbd>alt</kbd> + <kbd> &#x2193;</kbd> Move Line Down</p><p><kbd>shift</kbd> + <kbd>alt</kbd> + <kbd> &#x2191;</kbd> Copy Line up</p><p><kbd>shift</kbd> + <kbd>alt</kbd> + <kbd> &#x2193;</kbd> Copy Line down</p><p><kbd>ctrl</kbd> + <kbd>enter</kbd> Insert Line Below</p><p><kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>enter</kbd> Insert Line Above</p><p><kbd>ctrl</kbd> + <kbd> 0</kbd> Focus Side Bar</p><p><kbd>ctrl</kbd> + <kbd> 1</kbd> Focus First Editors Group</p><p><kbd>ctrl</kbd> + <kbd> d</kbd> Select Current</p><p><kbd>ctrl</kbd> + <kbd> e</kbd> Go To File</p><p><kbd>ctrl</kbd> + <kbd> shift</kbd> + <kbd>p</kbd> -> new file</p>",
     "picture": "vsc.png"
