@@ -32,7 +32,7 @@ export default function Blog() {
   }, [name, fired]);
 
   return (
-    <div className="blog" {...console.log("button")}>
+    <div className="blog">
       {data.map(el => (
         <Post post={el} key={el.id} clicked={() => toggle("#" + el.id)} />
       ))}

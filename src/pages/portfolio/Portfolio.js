@@ -9,13 +9,12 @@ export default function Portfolio() {
     <div className="portfolio">
       <h2>Some projects ...</h2>
       <div className="portfolio-grid">
-        {projectData.map(project => (
+        {projectData.map((project) => (
           <div className="col" key={project.id}>
             <Project project={project} />
           </div>
         ))}
       </div>
-      <h3>This site is a react baby!</h3>
     </div>
   );
 }

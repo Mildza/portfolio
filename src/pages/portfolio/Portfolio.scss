@@ -16,6 +16,7 @@
 .portfolio-grid {
   width: 80%;
   display: grid;
+  justify-content: center;
   margin: 0 auto;
   grid-template-columns: auto auto;
 }
